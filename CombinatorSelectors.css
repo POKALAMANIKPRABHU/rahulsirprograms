@@ -1,0 +1,37 @@
+/* descendent selector */
+section p{
+    color: blueviolet;
+}
+
+article p{
+    color: bisque;
+    background-color: black;
+}
+
+/* CHILD SELECTOR */
+section>p{
+    color: darkmagenta;
+}
+
+article>p{
+    color: blue;
+    background-color: bisque;
+}
+
+/* ADJACENT SELECTOR */
+
+aside+h1{
+    color: green;
+}
+
+aside+p{
+    color: green;
+}
+
+p+h1{
+    color: red;
+}
+p+p{
+    color:wheat;
+    background-color: black;
+}
